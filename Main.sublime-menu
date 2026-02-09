@@ -1,0 +1,39 @@
+[{
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children": [{
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children": [{
+            "caption": "Pain",
+            "children": [
+                {
+                    "caption": "README",
+                    "command": "open_file",
+                    "args": {
+                        "file": "${packages}/Pain/README.md"
+                    }
+                },
+                { "caption": "-" },
+                {
+                    "caption": "Settings",
+                    "command": "edit_settings",
+                    "args": {
+                        "base_file": "${packages}/Pain/Pain.sublime-settings",
+                        "default": "// Pain settings — see the left pane for defaults\n// and descriptions.\n{\n\t$0\n}\n"
+                    }
+                },
+                { "caption": "-" },
+                {
+                    "caption": "Key Bindings - User",
+                    "command": "open_file",
+                    "args": {
+                        "file": "${packages}/User/Default ($platform).sublime-keymap"
+                    }
+                }
+            ]
+        }]
+    }]
+}]

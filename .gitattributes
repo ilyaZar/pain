@@ -1,0 +1,11 @@
+# Exclude non-functional files from .sublime-package
+assets/            export-ignore
+tests/             export-ignore
+.github/           export-ignore
+.gitignore         export-ignore
+.gitattributes     export-ignore
+pyproject.toml     export-ignore
+coverage.xml       export-ignore
+.coverage          export-ignore
+.python-version    export-ignore
+uv.lock            export-ignore

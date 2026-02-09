@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.sublime-project
+*.sublime-workspace
+coverage.xml
+.coverage
+assets/*.png
+assets/ASCII-trash/
+assets/example-layouts/

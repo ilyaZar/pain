@@ -1,0 +1,14 @@
+[{
+    "caption": "Preferences: Pain Settings",
+    "command": "edit_settings",
+    "args": {
+        "base_file": "${packages}/Pain/Pain.sublime-settings",
+        "default": "// Pain settings — see the left pane for defaults\n// and descriptions.\n{\n\t$0\n}\n"
+    }
+}, {
+    "caption": "Pain: Toggle Resize Mode",
+    "command": "pain_toggle_setting",
+    "args": {
+        "setting": "resize_mode"
+    }
+}]
